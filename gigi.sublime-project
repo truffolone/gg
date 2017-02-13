@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "/var/www/html/gigi"
+        }
+    ],
+    "settings": {
+        "xdebug": {
+             "url": "http://gigi.tfl/",
+        }
+    }
+}
