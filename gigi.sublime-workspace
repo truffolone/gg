@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "phpunit.xml.dist",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 2238,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -679,10 +695,15 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/gigi"
+		"/var/www/html/gigi",
+		"/var/www/html/gigi/tests",
+		"/var/www/html/gigi/tests/AppBundle",
+		"/var/www/html/gigi/tests/AppBundle/Controller"
 	],
 	"file_history":
 	[
+		"/var/www/html/gigi/composer.lock",
+		"/var/www/html/gigi/.gitignore",
 		"/var/www/html/gigi/gigi.sublime-project",
 		"/var/www/html/cards/cards.sublime-project",
 		"/var/www/html/cards/wow.sublime-project",
@@ -808,9 +829,7 @@
 		"/var/www/html/magento/vendor/magento/framework/View/Element/Template.php",
 		"/var/www/html/magento/vendor/magento/framework/View/Element/Template/Context.php",
 		"/var/www/html/magento/app/code/Truffolone/HelloWorld/registration.php",
-		"/var/www/html/magento/app/code/Truffolone/HelloWorld/i18n/en_US.csv",
-		"/home/truffolone/Downloads/hello-world-dev-578982fac1d10203338ecbf722f77950171fe9e8 (2)/app/code/Amasty/HelloWorld/Block/Catalog/Product/HelloWorld.php",
-		"/home/truffolone/Downloads/hello-world-dev-578982fac1d10203338ecbf722f77950171fe9e8 (2)/app/code/Amasty/HelloWorld/view/frontend/templates/product/hello.phtml"
+		"/var/www/html/magento/app/code/Truffolone/HelloWorld/i18n/en_US.csv"
 	],
 	"find":
 	{
@@ -1041,8 +1060,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "phpunit.xml.dist",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								880,
+								880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1135,7 +1215,7 @@
 			"hide_conflict": false,
 			"restore_index":
 			{
-				"62":
+				"16":
 				{
 					"group": 0,
 					"index": 0
